@@ -4,11 +4,12 @@ import { useFetch } from './hooks/useFetch';
 import { useAddToAlbum } from './hooks/useAddToAlbum';
 
 function App() {  
-  const url = "https://nekos.best/api/v2/husbando";
+  const category = ["neko","husbando"];
+  const [url,setUrl] = useState("https://nekos.best/api/v2/husbando");
   const data = useFetch(url);
 
   const onButtonClick = () => {
-    
+    setUrl("https://nekos.best/api/v2/"+ category[Math.floor(Math.random()*2)])
   }
   
 
