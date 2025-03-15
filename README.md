@@ -1,13 +1,13 @@
 # nekos-best-api
 This app takes a random image from a random artist and shows it on the screen every time you reload the page
 or you press the randomize image button, it has a button that allows to store the image we like
-to an album
+to an album.
 
-# Download this repository and run it
- git clone https://github.com/jDaviDEV/nekos-best-api.git
- cd nekos-best-api/neko-api
- npm install
- npm run dev
+# Download this repository and run it.
+> git clone https://github.com/jDaviDEV/nekos-best-api.git.
+> cd nekos-best-api/neko-api.
+> npm install.
+> npm run dev.
 
 #How it works?
 There is a customHook called useFetch() that makes a fetch request to the url: "https://nekos.best/api/v2/" with a random category that could be
