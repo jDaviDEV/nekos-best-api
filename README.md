@@ -26,4 +26,4 @@ and then it return an object containing this:
 so we access to the value of "url" and send it to an img hmtl tag
 
 # Api documentation
-You can learn more about this api in the next link: [Handlebars templates](https://docs.nekos.best/index.html)
+You can learn more about this api in the next link: https://docs.nekos.best/index.html
