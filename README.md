@@ -1,3 +1,7 @@
+# Students
+Juan David Correa Franco
+Juan Esteban Garcia Castrillon
+
 # nekos-best-api
 This app takes a random image from a random artist and shows it on the screen every time you reload the page
 or you press the randomize image button, it has a button that allows to store the image we like
