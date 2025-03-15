@@ -7,7 +7,7 @@ export const useFetch = (url="https://nekos.best/api/v2/neko") => {
 
     const getFetch = async () => {
         setData({...data});
-        const response = await fetch(url);
+        const response = await fetch(url)
         setData({...await response.json(), isLoading: false})
     }
 

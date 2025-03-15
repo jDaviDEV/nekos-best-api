@@ -1,7 +1,11 @@
-import React from 'react'
+import { useState } from "react"
 
-export const useAddToAlbum = (url) => {
-    
+export const useAddToAlbum = () => {
+    const [album, setAlbum] = useState([])
 
-  return ( data )
-}
+    const addToAlbum = (image) => {
+        setAlbum([...album, image])
+    };
+
+    return { album, addToAlbum }
+};
