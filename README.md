@@ -9,7 +9,7 @@ to an album.
 > npm install.
 > npm run dev.
 
-#How it works?
+# How it works?
 There is a customHook called useFetch() that makes a fetch request to the url: "https://nekos.best/api/v2/" with a random category that could be
 "neko" or "husbando" (the url should look like this "https://nekos.best/api/v2/neko)")
 and then it return an object containing this:
@@ -26,4 +26,4 @@ and then it return an object containing this:
 so we access to the value of "url" and send it to an img hmtl tag
 
 # Api documentation
-so learn more about this api in the next link: [Handlebars templates](https://docs.nekos.best/index.html)
+You can learn more about this api in the next link: [Handlebars templates](https://docs.nekos.best/index.html)
